@@ -1,5 +1,6 @@
 import "./App.css";
 import EventProps from "./components/EventProps";
+import InputChange from "./components/InputChange";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         clickedStringButton={(e) => {
           console.log(e);
         }}
+      />
+      <InputChange
+        //ChangeVal=""
+        onChangeHandler={(e) => console.log(e.target.value)}
       />
     </div>
   );
