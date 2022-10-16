@@ -1,11 +1,9 @@
-# In this Branch <2> we are having :-
+# In this Branch <3> we are having :-
 
-## Passing Children as props
+## Passing Function as props
 
-## Passing Children inside component
+## Passing Function with event
 
-## Passing Optional props
-
-In the project directory, you can run:
+## Passing Function with event + value
 
 ### `Added way for destructing`

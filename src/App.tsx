@@ -1,17 +1,23 @@
 import "./App.css";
-import OptionalProps from "./components/OptionalProps";
-import Oscar from "./components/Oscar";
-import OscarInComponent from "./components/OscarInComponent";
+import EventProps from "./components/EventProps";
 
 function App() {
   return (
     <div className="App">
-      <Oscar>Welcome to Oscar</Oscar>
-      <OscarInComponent>
-        <Oscar>Well Hello Everyone, Welcome</Oscar>
-      </OscarInComponent>
-
-      <OptionalProps message={4} message1="Hello" />
+      <EventProps
+        clickedOneButton={() => {
+          console.log("clicked button");
+        }}
+        clickedSecondButton={(e) => {
+          console.log(e);
+        }}
+        clickedThirdButton={(e, id) => {
+          console.log(e, id);
+        }}
+        clickedStringButton={(e) => {
+          console.log(e);
+        }}
+      />
     </div>
   );
 }
