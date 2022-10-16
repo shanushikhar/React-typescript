@@ -1,4 +1,5 @@
 import "./App.css";
+import CheckingNames from "./components/CheckingNames";
 import Greet from "./components/Greet";
 import Person from "./components/Person";
 import { PersonList } from "./components/PersonList";
@@ -29,6 +30,7 @@ function App() {
       <Greet name={"bang"} number={10} isLoggedIn={true} />
       <Person namexyz={name} />
       <PersonList names={personNames} />
+      <CheckingNames status="processing" />
     </div>
   );
 }
