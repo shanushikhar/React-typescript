@@ -6,4 +6,8 @@
 
 ## Passing Function with event + value
 
-### `Added Input handler as well`
+## Added Input handler as well
+
+### `Better ways for props destructuring`
+
+### `exported types for better code cluttering`
