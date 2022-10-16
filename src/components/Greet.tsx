@@ -1,11 +1,18 @@
 import React from 'react'
 
+// we can also use interface, all upto se
 type DefinigProps = {
-    name:String
+    name : string,
+    number: number,
+    isLoggedIn: boolean
 }
 
 export default function Greet(props:DefinigProps) {
   return (
-    <div>Greet to {props.name}</div>
+    <div>
+        <h1>
+        {props.isLoggedIn && `Greet to ${props.name} ${props.number} times`}
+        </h1>
+    </div>
   )
 }
