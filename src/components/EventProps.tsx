@@ -13,6 +13,7 @@ type Event = {
 export default function EventProps(props: Event) {
   return (
     <div>
+      <h2>Button area</h2>
       <button onClick={props.clickedOneButton}>Button 1</button>
       <section>
         <button onClick={(val) => props.clickedSecondButton(val)}>

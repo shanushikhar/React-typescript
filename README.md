@@ -6,4 +6,4 @@
 
 ## Passing Function with event + value
 
-### `Added way for destructing`
+### `Added Input handler as well`
