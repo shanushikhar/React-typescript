@@ -1,6 +1,7 @@
 import "./App.css";
 import EventProps from "./components/EventProps";
 import InputChange from "./components/InputChange";
+import StyleProps from "./components/StyleProps";
 
 function App() {
   return (
@@ -20,9 +21,13 @@ function App() {
         }}
       />
       <InputChange
-        //ChangeVal=""
-        onChangeHandler={(e) => console.log(e.target.value)}
+      //ChangeVal=""
+      //onChangeHandler={(e) => console.log(e.target.value)}
       />
+
+      <section>
+        <StyleProps styleOfH1={{ border: "1px solid red", padding: "1rem" }} />
+      </section>
     </div>
   );
 }
