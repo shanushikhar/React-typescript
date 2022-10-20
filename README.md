@@ -4,10 +4,4 @@
 
 ## Using useState where there is unknown value
 
-## Passing Function with event + value
-
-## Added Input handler as well
-
-### `Better ways for props destructuring`
-
-### `exported types for better code cluttering`
+## Using useState as Assertion < when we know the value would be only particular type>
