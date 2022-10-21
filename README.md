@@ -2,6 +2,6 @@
 
 ## Using useReducer hook
 
-## Using useState where there is unknown value
+## Using useReducer to pass Strict Action type
 
-## Using useState as Assertion < when we know the value would be only particular type>
+## Using useReducer to have Discriminated union in Ts
