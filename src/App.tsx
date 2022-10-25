@@ -1,19 +1,12 @@
 import "./App.css";
-import Box from "./components/Box";
-import { ThemeContextProvider } from "./components/ThemeContextProvider";
-import User from "./components/User";
-import { UserContextProvider } from "./components/UserContext";
+import DomRef from "./components/DomRef";
+import MutableRef from "./components/MutableRef";
 
 function App() {
   return (
     <div className="App">
-      <ThemeContextProvider>
-        <Box />
-      </ThemeContextProvider>
-
-      <UserContextProvider>
-        <User />
-      </UserContextProvider>
+      <DomRef />
+      <MutableRef />
     </div>
   );
 }
