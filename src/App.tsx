@@ -1,20 +1,21 @@
 import { useState } from "react";
 import "./App.css";
-import Counter from "./components/Counter";
-import DomRef from "./components/DomRef";
-import LiftingState from "./components/LiftingState";
-import MutableRef from "./components/MutableRef";
-import RenderingList from "./components/RenderingList";
+
+import UseCallback from "./components/useCallback";
+import UseEffect from "./components/useEffect";
+import UseMemo from "./components/useMemo";
+import UseRef from "./components/useRef";
+import UseState from "./components/useState";
+
+
 
 function App() {
   const [count, setCount] = useState<number>(0);
   return (
     <div className="App">
-      {/* <LiftingState setCount={setCount}>{count}</LiftingState> */}
-      <RenderingList
-        items={[1, 2, "Start"]}
-        render={(item: number | string) => <span className="red">{item}</span>}
-      />
+
+      <UseRef />
+
     </div>
   );
 }
