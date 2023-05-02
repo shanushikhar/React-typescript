@@ -1,12 +1,14 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import DomRef from "./components/DomRef";
-import MutableRef from "./components/MutableRef";
+import UseCallback from "./components/useCallback";
+import UseEffect from "./components/useEffect";
+import UseMemo from "./components/useMemo";
+import UseRef from "./components/useRef";
+import UseState from "./components/useState";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <UseRef />
     </div>
   );
 }
