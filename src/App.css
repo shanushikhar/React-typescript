@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.red{
+  color: red;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
