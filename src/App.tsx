@@ -1,14 +1,11 @@
 import "./App.css";
-import UseCallback from "./components/useCallback";
-import UseEffect from "./components/useEffect";
-import UseMemo from "./components/useMemo";
-import UseRef from "./components/useRef";
-import UseState from "./components/useState";
+
+import UseReducer from "./components/useReducer";
 
 function App() {
   return (
     <div className="App">
-      <UseRef />
+      <UseReducer>{(num: number) => <>current count is :- {num}</>}</UseReducer>
     </div>
   );
 }
